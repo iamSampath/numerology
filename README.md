@@ -1,4 +1,4 @@
-#Numerology:
+# Numerology:
   Numerology, the ancient practice of assigning meaning to numbers, offers a fascinating lens through which to view the world. By understanding the vibrational energy of numbers, we can gain deeper insights into ourselves and the universe around us.
 
 Why Numerology?
