@@ -5,13 +5,34 @@
   <title>Click Me</title>
 </head>
 <body>
-  <button onclick="showText()">Click Me</button>
-  <div id="text"></div>
-
-  <script>
-    function showText() {
-      document.getElementById("text").innerHTML = "You clicked the button!";
-    }
-  </script>
-</body>
+    <label for="dob">Date of Birth:</label>
+    <input type="text" id="dob" placeholder="DD MM YYYY">
+    <button onclick="checkDOB()">Check</button>
+    <div id="result"></div>
+  
+    <script>
+      function checkDOB() {
+        const dobInput = document.getElementById("dob").value;
+        const dobParts = dobInput.split(" ");
+  
+        if (dobParts.length !== 3) {
+          document.getElementById("result").innerHTML = "Invalid date format. Please enter in DD MM YYYY format.";
+          return;
+        }
+  
+        const day = parseInt(dobParts[0]);
+        const month = parseInt(dobParts[1]);
+        const year = parseInt(dobParts[2]);
+  
+        // Basic validation (can be more robust)
+        if (day < 1 || day > 31 || month < 1 || month > 12 || year < 1900 || year > new Date().getFullYear()) {
+          document.getElementById("result").innerHTML = "Invalid date. Please enter a valid date.";
+          return;
+        }
+  
+        // You can add more specific date validation logic here, such as checking for leap years, valid day ranges for each month, etc.
+  
+        document.getElementById("result").innerHTML = "You entered: " + dobInput;
+      }
+    </script>
 </html>
