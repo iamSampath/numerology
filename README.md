@@ -8,3 +8,7 @@ Why Numerology?
  * Life Path Guidance: Navigate life's challenges and opportunities with greater clarity.
  * Spiritual Growth: Connect with your higher self and spiritual purpose.
  * This page will help you identify the basic patterns from Numerology from your date of birth.
+
+## Code repo:
+
+This code repo contains code for the tool which gives the required information for Numerology Self Assessment. coding this repo to save time.
