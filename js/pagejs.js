@@ -11,7 +11,7 @@ function checkDOB() {
     const dobParts = dobInput.split("/");
 
     if (dobParts.length !== 3) {
-        document.getElementById("result").innerHTML = "Invalid date format.";
+        document.getElementById("result").innerHTML = "<div class='alert alert-danger'>Invalid Date Format!!</div>";
         return;
     }
 
@@ -21,11 +21,11 @@ function checkDOB() {
 
     // Basic validation (can be more robust)
     if (day < 1 || day > 31 || month < 1 || month > 12 || year < 1900 || year > new Date().getFullYear()) {
-        document.getElementById("result").innerHTML = "Invalid date. Please select a valid date.";
+        document.getElementById("result").innerHTML = "<div class='alert alert-danger'>Invalid Date of birth!!</div>";
         return;
     }
 
     // You can add more specific date validation logic here, such as checking for leap years, valid day ranges for each month, etc.
 
-    document.getElementById("result").innerHTML = "You entered: " + dobInput;
+    document.getElementById("result").innerHTML = "<div class='alert alert-success'>Your date of Birth is: "+ dobInput +"</div>";
 }

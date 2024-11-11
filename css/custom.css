@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat/Montserrat-Bold.woff2') format('woff2'),
+         url('./fonts/Montserrat/Montserrat-Bold.woff') format('woff'),
+         url('./fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
+    font-weight:   
+ 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat/Montserrat-Italic.woff2') format('woff2'),
+         url('./fonts/Montserrat/Montserrat-Italic.woff') format('woff'),
+         url('./fonts/Montserrat/Montserrat-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+p,ul {
+    font-family: "Kode Mono";
+    font-style: normal;
+    color:#ffffff;
+}
+
+html,body {
+    background-color: #1E201E; /* Dark background */
+    color:#ECDFCC; /* Light text */
+  }
+
+  h1,h2,h3,h4{
+    font-family: 'Kode Mono';
+    font-style: normal;
+    color: #ECDFCC;
+  }
+
+  label{
+    font-family: 'Kode Mono';
+    font-style: bold;
+    color: #E2F1E7;
+  }
+
+  a{
+    font-family: 'Kode Mono';
+    font-style: bold;
+    color:#ffffff;
+  }

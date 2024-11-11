@@ -3,25 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./fonts/Montserrat/Montserrat-VariableFont_wght.ttf" rel="stylesheet">
     <title>numerology.github.io</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
     <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/custom.css" rel="stylesheet">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+    <script>
+        document.addEventListener('contextmenu', event => event.preventDefault());
+    </script>
 </head>
 <body>
-    <H1 align="center">Most Intersting Content!!</H1>
-    <div class="container">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h3 class="display-6 text-center fw-bold">Numerology: A Tool for Self-Exploration</h3>
+        </div>
+    </div>
+
+    <div class="container mt-5">
         <div class="row">
-            <h2>Details:</h2>
+            <h3>Numerology:</h3>
+                <p class="text-justify">
+                    Numerology, the ancient practice of assigning meaning to numbers, offers a fascinating lens through which to view the world. By understanding the vibrational energy of numbers, we can gain deeper insights into ourselves and the universe around us.
+                </p>
+                <p class="text-justify">
+                    <p>Why Numerology?</p>
+                    <p>
+                        <ul>
+                            <li><b>Self-Discovery</b>: Uncover your hidden talents, strengths, and weaknesses.</li>
+                            <li><b>Relationship Insights</b>: Gain a better understanding of your relationships with others.</li>
+                            <li><b>Career Guidance</b>: Identify career paths that align with your natural abilities.</li>
+                            <li><b>Life Path Guidance</b>: Navigate life's challenges and opportunities with greater clarity.</li>
+                            <li><b>Spiritual Growth</b>: Connect with your higher self and spiritual purpose.</li>
+                        </ul>
+                    </p>
+                </p>
+
+                <p class="text-justify">
+                    This page will help you identify the basic patterns from Numerology from your date of birth.
+                </p>
             <hr class="my-4">
         </div>
         
         <div class="row">   
-            <div class="col-md-2 mb-3">
-                    <label for="dob" class="form-label" >Date of Birth:</label>
+            <div class="col-md-3 mb-3">
+                <label for="dob" class="form-label h3">Date Of Birth:</label>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <input type="text" class="form-control" id="dob">
-            </div>
+            </div> 
             <div class="col-md-4">
                 <button type="submit" class="btn btn-primary" onclick="checkDOB()">Check</button>
             </div>
@@ -31,30 +63,39 @@
     
 
         <div class="row">
-            <h2>Detailed numbers:</h2>
+            <h3>Detailed numbers:</h3>
             <hr class="my-4">
         </div>
         
         <div class="row">
-            <h2>BirthChart:</h2>
+            <h3>BirthChart:</h3>
             <hr class="my-4">
         </div>
 
         <div class="row">
-            <h2>Yogas:</h2>
+            <h3>Yogas:</h3>
             <hr class="my-4">
         </div>
 
         <div class="row">
-            <h2>Description:</h2>
+            <h3>Description:</h3>
             <hr class="my-4">
         </div>
-        
+        <div class="row">
+            <div class="col-md-6">
+            <button class="btn btn-primary content-center" onclick="window.print()">Print</button>
+            </div>
+        </div>     
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C89scichPD02hX1vC7spAH6UZ1eCAmgciMGRhNBhqyDtWVTMV6GzoTt7Ni9u9RkQ1qf0" crossorigin="anonymous"></script>
     <script src="./js/pagejs.js"></script>
+    <footer class="text-center text-muted mt-5">
+        <p>&copy; <script>document.write(new Date().getFullYear());</script> Sampath Kumar Medarametla. All Rights Reserved.
+        <p class="text-justify"><a href="https://iamsampath.github.io/numerology/pp.html">Privacy policy</a></p>
+    </p>
+    </footer>
 </body>
 </html>
