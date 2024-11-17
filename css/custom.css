@@ -47,3 +47,12 @@ html,body {
     font-style: bold;
     color:#ffffff;
   }
+
+  td,tr{
+   border: 1px solid white;
+   text-align: center;
+  }
+
+  table{
+    width:45%;
+  }
