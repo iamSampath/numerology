@@ -77,9 +77,9 @@ function checkDOB() {
 
     // Compare and create a new grid with matched digits
     const comparedGrid = [
-        ["", "", ""],
-        ["", "", ""],
-        ["", "", ""]
+        [" ", " ", " "],
+        [" ", " ", " "],
+        [" ", " ", " "]
     ];
 
     for (let i = 0; i < 3; i++) {
@@ -105,16 +105,27 @@ function checkDOB() {
     // Display the Numbers
     const numberDiv = document.getElementById("numbers");
     numberDiv.innerHTML = `
-      <p>Lifepath Number/Conductor: ${lifePathNumber}</p>
-      <p>Driver/Karmic Number: ${driverNumber}</p>
-      <p>Kua Number: ${kuaNumber}</p>
+      <div class="container mt-2"> 
+        <h4 align="center">Key Numbers:</h4>
+        <div class="row justify-content-center mt-3">
+            <div class="col-md-6">
+                <p>Lifepath Number/Conductor: ${lifePathNumber}</p>
+                <p>Driver/Karmic Number: ${driverNumber}</p>
+                <p>Kua Number: ${kuaNumber}</p>
+            </div>
+        </div>
+      </div>
     `;
 
     // Display the Birthchart
     const resultsDiv = document.getElementById("charts");
     resultsDiv.innerHTML = `
-        <div style="display: flex; justify-content: space-between;">
-            <table>
+    <hr class="my-4">
+    <div class="container mt-2">
+     <h4 align="center">Birth Chart:</h4>
+    <div class="row justify-content-center mt-3">
+        <div class="col-md-6">
+            <table class="table table-dark table-bordered table-hover text-center">
                 <tr>
                     <td>${comparedGrid[0][0]}</td>
                     <td>${comparedGrid[0][1]}</td>
@@ -132,5 +143,7 @@ function checkDOB() {
                 </tr>
             </table>
         </div>
+    </div>
+    </div>
     `;
 }

@@ -7,7 +7,7 @@
     <link href="./fonts/Montserrat/Montserrat-VariableFont_wght.ttf" rel="stylesheet">
     <title>numerology.github.io</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Righteous&display=swap');
     </style>
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link href="./css/custom.css" rel="stylesheet">
@@ -20,42 +20,23 @@
 <body>
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h3 class="display-6 text-center fw-bold">Numerology: A Tool for Self-Exploration</h3>
+            <h1 class="display-4 text-center">Numerology : A Tool of Self-Exploration</h1>
         </div>
     </div>
-
+    <hr class="my-4">
     <div class="container mt-5">
-        <div class="row">
-            <h3>Numerology:</h3>
-            <p class="text-justify">
-                Numerology, the ancient practice of assigning meaning to numbers, offers a fascinating lens through
-                which to view the world. By understanding the vibrational energy of numbers, we can gain deeper insights
-                into ourselves and the universe around us.
-            </p>
-            <p class="text-justify">
-            <p>Why Numerology?</p>
-            <p>
-            <ul>
-                <li><b>Self-Discovery</b>: Uncover your hidden talents, strengths, and weaknesses.</li>
-                <li><b>Relationship Insights</b>: Gain a better understanding of your relationships with others.</li>
-                <li><b>Career Guidance</b>: Identify career paths that align with your natural abilities.</li>
-                <li><b>Life Path Guidance</b>: Navigate life's challenges and opportunities with greater clarity.</li>
-                <li><b>Spiritual Growth</b>: Connect with your higher self and spiritual purpose.</li>
-            </ul>
-            </p>
-            </p>
+        <p class="text-justified h4">
+            Numerology is the study of numbers and their influence on human life. By analyzing the digits in your
+            birthdate, one can gain insights into their personality, strengths, weaknesses, and life path. Lets get
+            started by
+            selecting your date of birth and Gender.
+        </p>
 
-            <p class="text-justify">
-                This page will help you identify the basic patterns from Numerology from your date of birth.
-            </p>
-            <hr class="my-4">
-        </div>
-
-        <div class="row">
-            <div class="col-md-3 mb-3">
-                <label for="dob" class="form-label h3">Date Of Birth:</label>
+        <div class="row mt-3">
+            <div class="col-md-3 mb-3 mt-5">
+                <label for="dob" class="form-label h4">Date Of Birth:</label>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-5 mt-5">
                 <input type="text" class="form-control" id="dob">
             </div>
         </div>
@@ -63,56 +44,39 @@
         <div class="row">
             <div class="col-md-6">
                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="male" value="male">
-                <label class="form-check-label" for="male">
+                <label class="form-check-label h4" for="male">
                     Male
                 </label>
             </div>
 
             <div class="col-md-6">
                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="female" value="female">
-                <label class="form-check-label" for="female">
+                <label class="form-check-label h4" for="female">
                     Female
                 </label>
             </div>
 
         </div>
-        <div class="row">
-            <div class="col-md-6 mt-3">
-                <button type="submit" class="btn btn-primary" onclick="checkDOB()">Submit</button>
-            </div>
+    </div>
 
-            <div id="result" class="my-3"></div>
-            <hr class="my-4">
-        </div>
-
-        <div class="row">
-            <h3>Birth Chart:</h3>
-            <div id="charts" class="my-3" name="charts"></div>
-            <hr class="my-4">
-        </div>
-
-        <div class="row">
-            <h3>Key Numbers:</h3>
-            <div id="numbers" class="my-3"></div>
-            <hr class="my-4">
-        </div>
-
-
-        <div class="row">
-            <h3>Yogas:</h3>
-            <hr class="my-4">
-        </div>
-
-        <div class="row">
-            <h3>Description:</h3>
-            <hr class="my-4">
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <button class="btn btn-primary content-center" onclick="window.print()">Print</button>
+    <div class="container mt-4">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <button type="submit" class="btn btn-primary btn-lg btn-block fcl" onclick="checkDOB()">Submit</button>
             </div>
         </div>
     </div>
+
+
+    <div class="container">
+    <div class="row">
+        <div id="charts" class="my-3" name="charts"></div>
+    </div>
+
+    <div class="row">
+        <div id="numbers" class="my-3"></div>
+    </div>
+   </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
@@ -120,11 +84,13 @@
         integrity="sha384-C89scichPD02hX1vC7spAH6UZ1eCAmgciMGRhNBhqyDtWVTMV6GzoTt7Ni9u9RkQ1qf0"
         crossorigin="anonymous"></script>
     <script src="./js/pagejs.js"></script>
-    <footer class="text-center text-muted mt-5">
+    <footer class="text-center text-muted mt-3">
         <p>&copy;
             <script>document.write(new Date().getFullYear());</script> Sampath Kumar Medarametla. All Rights Reserved.
-        <p class="text-justify"><a href="https://iamsampath.github.io/numerology/pp.html">Privacy policy</a></p>
         </p>
+        <p class="text-justify"><a target="_blank" href="./pp.html">Privacy
+                policy</a></p>
+
     </footer>
 </body>
 
