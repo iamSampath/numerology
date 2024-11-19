@@ -11,7 +11,7 @@ Why Numerology?
 
 ## Code repo:
 
-Included in the repo:
+Developed:
  * Generation of BirthChart based on Date of Birth and Gender.
  * Determination of Lifepath, Drive and Kua Numbers.
 
@@ -20,3 +20,5 @@ Future Pipeline:
 * Personality Traits Based on Numbers.
 * Yogas based on your birthchart.
 * Understanding Loshu Grid.
+* Understanding your Numbers.
+
