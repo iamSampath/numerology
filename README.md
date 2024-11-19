@@ -11,4 +11,12 @@ Why Numerology?
 
 ## Code repo:
 
-This code repo contains code for the tool which gives the required information for Numerology Self Assessment. coding this repo to save time.
+Included in the repo:
+ * Generation of BirthChart based on Date of Birth and Gender.
+ * Determination of Lifepath, Drive and Kua Numbers.
+
+
+Future Pipeline:
+* Personality Traits Based on Numbers.
+* Yogas based on your birthchart.
+* Understanding Loshu Grid.
