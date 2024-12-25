@@ -287,22 +287,18 @@ function checkDOB() {
                 <tr>
                   <td class="lfalign">Aspect</td>
                   <td class="lfalign">Result</td>
-                  <td class="lfalign">Interpretation</td>
                 </tr>
                 <tr>
                   <td class="lfalign">Conductor/Lifepath Number</td>
                   <td class="lfalign">${lifePathNumber}</td>
-                  <td class="lfalign">${conductorNumberPicks[lifePathNumber-1].ref}</td>
                 </tr>
                 <tr>
                   <td class="lfalign">Driver Number</td>
                   <td class="lfalign">${driverNumber}</td>
-                  <td class="lfalign">${driverNumberPicks[driverNumber-1].ref}</td>
                 </tr>
                 <tr>
                   <td  class="lfalign">Kua Number</td>
                   <td  class="lfalign">${kuaNumber}</td>
-                  <td  class="lfalign">${kuaNumberPicks[kuaNumber-1].ref}</td>
                 </tr>
                 </table>
             </div>
@@ -434,7 +430,7 @@ function checkDOB() {
                 </tr>
                 <tr>
                     <td style="text-align: left;">7</td>
-                    <td style="text-align: left;">Neptune</td>
+                    <td style="text-align: left;">Ketu/Neptune</td>
                     <td style="text-align: left;">Wisdom</td>
                     
                 </tr>
