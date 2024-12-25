@@ -392,62 +392,62 @@ function checkDOB() {
             <table class="table table-dark table-bordered table-hover"> 
                 <tr>   
                     <td style="text-align: left;">Number</td>
-                    <td style="text-align: left;">Represents</td>
                     <td style="text-align: left;">Planet</td>
+                    <td style="text-align: left;">Represents</td>
 
                 </tr>
                 <tr>
                     <td style="text-align: left;">1</td>
-                    <td style="text-align: left;">Career and Planning</td>
                     <td style="text-align: left;">Sun</td>
+                    <td style="text-align: left;">Leadership</td>
                     
                 </tr>
                 <tr>
                     <td style="text-align: left;">2</td>
-                    <td style="text-align: left;">marriage, happiness, and initiation</td>
                     <td style="text-align: left;">Moon</td>
+                    <td style="text-align: left;">Sensitivity and Intution</td>
                     
                 </tr>
                 <tr>
                     <td style="text-align: left;">3</td>
-                    <td style="text-align: left;">Health and Education</td>
                     <td style="text-align: left;">Jupiter</td>
+                    <td style="text-align: left;">Knowledge & Education</td>
                     
                 </tr>
                 <tr>
                     <td style="text-align: left;">4</td>
-                    <td style="text-align: left;">Wealth and prosperity</td>
-                    <td style="text-align: left;">Uranus</td>
+                    <td style="text-align: left;">Rahu/Uranus</td>
+                    <td style="text-align: left;">Discipline and Organization</td>
                     
                 </tr>
                 <tr>
                     <td style="text-align: left;">5</td>
-                    <td style="text-align: left;">Strengths, communication, and stability</td>
                     <td style="text-align: left;">Mercury</td>
+                    <td style="text-align: left;">Balance in life</td>
                     
                 </tr>
                 <tr>
                     <td style="text-align: left;">6</td>
-                    <td style="text-align: left;">Helping, friends, opportunities, and luxury</td>
                     <td style="text-align: left;">Venus</td>
+                    <td style="text-align: left;">Money and Career</td>
                     
                 </tr>
                 <tr>
                     <td style="text-align: left;">7</td>
-                    <td style="text-align: left;">Mental, creativity, and child</td>
                     <td style="text-align: left;">Neptune</td>
+                    <td style="text-align: left;">Wisdom</td>
                     
                 </tr>
                 <tr>
                     <td style="text-align: left;">8</td>
-                    <td style="text-align: left;">Knowledge, memory, and prosperity</td>
                     <td style="text-align: left;">Saturn</td>
+                    <td style="text-align: left;">Financial Management</td>
                     
                 </tr>
                 <tr>
                     <td style="text-align: left;">9</td>
-                    <td style="text-align: left;">Name, recognition, energy, and fame</td>
                     <td style="text-align: left;">Mars</td>
+                    <td style="text-align: left;">Intelligence</td>
                     
                 </tr>
             </table>
